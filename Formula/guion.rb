@@ -1,28 +1,28 @@
 class Guion < Formula
   desc "Programming language with readable syntax, explicit permissions and a built-in package registry"
   homepage "https://rmichaelthomas.github.io/guion/"
-  version "0.5.0"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/rmichaelthomas/guion/releases/download/v0.5.0/guion-macos-aarch64.tar.gz"
-      sha256 "8e064347996bce8c5e78e515faba6e23fdb85011f965360b9999615569ca6cfc"
+      url "https://github.com/rmichaelthomas/guion/releases/download/v0.6.0/guion-macos-aarch64.tar.gz"
+      sha256 "001b797c6bf3472ec497988b535a84b335e67c5ac7d19cb852a763a70db086d2"
     end
     on_intel do
-      url "https://github.com/rmichaelthomas/guion/releases/download/v0.5.0/guion-macos-x86_64.tar.gz"
-      sha256 "deac7b612022e2e401096892d2e56a9eb00b0d57668b0f4092e16a87c717fb26"
+      url "https://github.com/rmichaelthomas/guion/releases/download/v0.6.0/guion-macos-x86_64.tar.gz"
+      sha256 "c05bba761ad526c7aeb4e91b77b9a26e20e0176f1d1fed829ee193391f0a351a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rmichaelthomas/guion/releases/download/v0.5.0/guion-debian-aarch64.tar.gz"
-      sha256 "b6ccd4990023dba2ad73ae125f4ddb8e1be9b478ef8f03c0fdd13aa4825116a6"
+      url "https://github.com/rmichaelthomas/guion/releases/download/v0.6.0/guion-debian-aarch64.tar.gz"
+      sha256 "80107281055d1a6af0f0ba4bd7f3ef3d9eb7282c43373ab1f8d70854198ce8c7"
     end
     on_intel do
-      url "https://github.com/rmichaelthomas/guion/releases/download/v0.5.0/guion-debian-x86_64.tar.gz"
-      sha256 "305e267c1a83a09f2da5879360933cbbbb83740065df21b1e01002ca42430afb"
+      url "https://github.com/rmichaelthomas/guion/releases/download/v0.6.0/guion-debian-x86_64.tar.gz"
+      sha256 "88a87029166457dfa10d9458b8534a3291a841c85579250ccff8ac1d00ddaf9c"
     end
   end
 
